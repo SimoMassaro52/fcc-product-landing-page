@@ -3,3 +3,82 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    overflow-x: hidden;
+}
+
+/*BACKGROUND*/
+
+.custom_bg-gray{
+    background-color: #EEEEEE;
+}
+
+/*HEADER > NAV*/
+
+nav img{
+    min-width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+/*TITLE AND EMAIL*/
+
+h4, h5{
+    font-weight: 600;
+}
+
+input[type=email]{
+    min-width: 300px;   
+}
+
+.custom_bg-yellow{
+    background-color: #f1c40f;
+}
+
+input[type=submit]{
+    font-weight: bold;
+}
+
+input[type=submit], #pricing a{
+    transition: ease 0.7s;
+    border: none;
+}
+
+input[type=submit]:hover, #pricing a:hover{
+    background-color: #ff8c00;
+}
+
+input[type=email]{
+    border: 1px solid black;
+}
+
+/*FEATURES SECTION*/
+
+i{
+    font-size: 50px;
+    color: #ff8c00;
+}
+
+/*PRICING SECTION*/
+
+.custom_bg-dark{
+    background-color: #dddddd;
+}
+
+/*PRICING SECTION*/
+
+footer span{
+    color: gray;
+}
